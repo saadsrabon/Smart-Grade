@@ -1,4 +1,4 @@
-
+import avatar from '../assets/avatar.png'
 
 export const Student = () => {
     return (
@@ -8,7 +8,7 @@ export const Student = () => {
                 <div className="flex space-x-3 items-center">
                     <img
                         className="w-8 h-8"
-                        src="./assets/avatar.png"
+                        src={avatar}
                         width="32"
                         height="32"
                         alt="John Smith"

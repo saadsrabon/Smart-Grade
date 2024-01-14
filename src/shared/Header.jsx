@@ -1,5 +1,5 @@
 
-
+import logo from '../assets/lws-logo-en.svg'
 const Header = () => {
     return (
         <nav className="py-6">
@@ -7,7 +7,7 @@ const Header = () => {
                 <a href="/">
                     <img
                         className="h-[40px]"
-                        src="./assets/lws-logo-en.svg"
+                        src={logo}
                         alt="Lws"
                     />
                 </a>
