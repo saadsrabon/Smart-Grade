@@ -1,7 +1,7 @@
 import { Student } from "./student";
 
 
-export default function Classes() {
+export default function ClassesSection() {
     return (
         <section className="py-24 lg:pt-[120px] lg:pb-28">
             <div className="container">

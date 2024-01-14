@@ -1,4 +1,4 @@
-import Classes from "./components/Classes";
+import ClassesSection from "./components/Classes";
 import { Hero } from "./components/hero";
 import { Footer } from "./shared/Footer";
 import Header from "./shared/Header";
@@ -9,7 +9,7 @@ const App = () => {
     <div>
       <Header />
       <Hero />
-      <Classes />
+      <ClassesSection />
       <Footer />
     </div>
   );
