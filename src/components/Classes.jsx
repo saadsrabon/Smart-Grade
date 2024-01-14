@@ -1,7 +1,8 @@
 import { Student } from "./student";
-
+import school from '../../db.json'
 
 export default function ClassesSection() {
+    console.log(school)
     return (
         <section className="py-24 lg:pt-[120px] lg:pb-28">
             <div className="container">
@@ -64,20 +65,27 @@ export default function ClassesSection() {
                                 </th>
                             </tr>
                         </thead>
-                        <tbody>
+                        {
+                        school?.classes?.map((item) => (
+                            <tbody key={item?.id}>
                             {/* <!-- class two --> */}
                             <tr className="bg-white/5">
                                 <td className="p-5 text-sm md:text-xl" colSpan="4">
-                                    Class One
+                                    {item?.class_name}
                                 </td>
                             </tr>
                             {/* Student */}
-
-                            <Student />
+         
+                           {item?.students?.map((student) => (
+                            <Student key={student?.id} data={student} />
+                           ))}
 
 
 
                         </tbody>
+                            
+                            )
+                        )}
 
                     </table>
                 </div>

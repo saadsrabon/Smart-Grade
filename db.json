@@ -1,35 +1,36 @@
 {
-  "school": "ABC School",
-  "classes": [
-    {
-      "class_name": "Class 1A",
-      "students": [
-        { "ID": 1, "Name": "John Doe", "Score": 85, "Percentage": 0 },
-        { "ID": 2, "Name": "Jane Smith", "Score": 92, "Percentage": 0 },
-        { "ID": 3, "Name": "Mike Johnson", "Score": 78, "Percentage": 0 },
-        { "ID": 4, "Name": "Emily Brown", "Score": 95, "Percentage": 0 },
-        { "ID": 5, "Name": "Alex Turner", "Score": 88, "Percentage": 0 },
-        { "ID": 6, "Name": "Sophia Miller", "Score": 80, "Percentage": 0 },
-        { "ID": 7, "Name": "David White", "Score": 75, "Percentage": 0 },
-        { "ID": 8, "Name": "Emma Davis", "Score": 89, "Percentage": 0 },
-        { "ID": 9, "Name": "Robert Taylor", "Score": 91, "Percentage": 0 },
-        { "ID": 10, "Name": "Olivia Johnson", "Score": 87, "Percentage": 0 }
-      ]
-    },
-    {
-      "class_name": "Class 2B",
-      "students": [
-        { "ID": 11, "Name": "Daniel Brown", "Score": 84, "Percentage": 0 },
-        { "ID": 12, "Name": "Sophie Wilson", "Score": 93, "Percentage": 0 },
-        { "ID": 13, "Name": "James Davis", "Score": 79, "Percentage": 0 },
-        { "ID": 14, "Name": "Isabella Harris", "Score": 96, "Percentage": 0 },
-        { "ID": 15, "Name": "Andrew Miller", "Score": 86, "Percentage": 0 },
-        { "ID": 16, "Name": "Ella Brown", "Score": 82, "Percentage": 0 },
-        { "ID": 17, "Name": "Michael Turner", "Score": 88, "Percentage": 0 },
-        { "ID": 18, "Name": "Grace Martin", "Score": 90, "Percentage": 0 },
-        { "ID": 19, "Name": "William White", "Score": 94, "Percentage": 0 },
-        { "ID": 20, "Name": "Ava Jackson", "Score": 85, "Percentage": 0 }
-      ]
-    }
-  ]
-}
+    "school": "ABC School",
+    "classes": [
+      { "id":1,
+        "class_name": "Class 1",
+        "students": [
+          {"ID": 1, "Name": "John Doe", "Grade": "A+", "Percentage": 92},
+          {"ID": 2, "Name": "Jane Smith", "Grade": "A", "Percentage": 85},
+          {"ID": 3, "Name": "Mike Johnson", "Grade": "A+", "Percentage": 94},
+          {"ID": 4, "Name": "Emily Brown", "Grade": "A", "Percentage": 89},
+          {"ID": 5, "Name": "Alex Turner", "Grade": "A+", "Percentage": 91},
+          {"ID": 6, "Name": "Sophia Miller", "Grade": "A", "Percentage": 86},
+          {"ID": 7, "Name": "David White", "Grade": "A", "Percentage": 88},
+          {"ID": 8, "Name": "Emma Davis", "Grade": "A+", "Percentage": 93},
+          {"ID": 9, "Name": "Robert Taylor", "Grade": "A", "Percentage": 87},
+          {"ID": 10, "Name": "Olivia Johnson", "Grade": "A+", "Percentage": 95}
+        ]
+      },
+      { "id":2,
+        "class_name": "Class 2",
+        "students": [
+          {"ID": 11, "Name": "Daniel Brown", "Grade": "A", "Percentage": 88},
+          {"ID": 12, "Name": "Sophie Wilson", "Grade": "A+", "Percentage": 94},
+          {"ID": 13, "Name": "James Davis", "Grade": "A", "Percentage": 87},
+          {"ID": 14, "Name": "Isabella Harris", "Grade": "A+", "Percentage": 96},
+          {"ID": 15, "Name": "Andrew Miller", "Grade": "A", "Percentage": 89},
+          {"ID": 16, "Name": "Ella Brown", "Grade": "A", "Percentage": 86},
+          {"ID": 17, "Name": "Michael Turner", "Grade": "A+", "Percentage": 92},
+          {"ID": 18, "Name": "Grace Martin", "Grade": "A", "Percentage": 85},
+          {"ID": 19, "Name": "William White", "Grade": "A+", "Percentage": 91},
+          {"ID": 20, "Name": "Ava Jackson", "Grade": "A", "Percentage": 88}
+        ]
+      }
+    ]
+  }
+  
