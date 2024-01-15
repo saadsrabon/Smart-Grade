@@ -9,8 +9,8 @@ export const Student = ({data:student}) => {
             <td className="p-5 text-sm md:text-xl">
                 <div className="flex space-x-3 items-center">
                     <img
-                        className="w-8 h-8"
-                        src={avatar}
+                        className="w-8 h-8 rounded-lg"
+                        src={student?.img}
                         width="32"
                         height="32"
                         alt="John Smith"

@@ -86,7 +86,13 @@ hr {
   border-top-width: 1px;
   /* 3 */
 }
-
+.rounded-lg {
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
 /*
 Add the correct text decoration in Chrome, Edge, and Safari.
 */

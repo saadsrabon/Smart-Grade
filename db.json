@@ -4,31 +4,31 @@
       { "id":1,
         "class_name": "Class 1",
         "students": [
-          {"ID": 1, "Name": "John Doe", "Grade": "A+", "Percentage": 92},
-          {"ID": 2, "Name": "Jane Smith", "Grade": "A", "Percentage": 85},
-          {"ID": 3, "Name": "Mike Johnson", "Grade": "A+", "Percentage": 94},
-          {"ID": 4, "Name": "Emily Brown", "Grade": "A", "Percentage": 89},
-          {"ID": 5, "Name": "Alex Turner", "Grade": "A+", "Percentage": 91},
-          {"ID": 6, "Name": "Sophia Miller", "Grade": "A", "Percentage": 86},
-          {"ID": 7, "Name": "David White", "Grade": "A", "Percentage": 88},
-          {"ID": 8, "Name": "Emma Davis", "Grade": "A+", "Percentage": 93},
-          {"ID": 9, "Name": "Robert Taylor", "Grade": "A", "Percentage": 87},
-          {"ID": 10, "Name": "Olivia Johnson", "Grade": "A+", "Percentage": 95}
+          {"ID": 1, "Name": "John Doe", "Grade": "A+", "Percentage": 92,"img":"https://randomuser.me/api/portraits/men/0.jpg"},
+          {"ID": 2, "Name": "Jane Smith", "Grade": "A", "Percentage": 85,"img":"https://randomuser.me/api/portraits/men/73.jpg"},
+          {"ID": 3, "Name": "Mike Johnson", "Grade": "A+", "Percentage": 94,"img":"https://randomuser.me/api/portraits/men/89.jpg"},
+          {"ID": 4, "Name": "Emily Brown", "Grade": "A", "Percentage": 89,"img":"https://randomuser.me/api/portraits/women/22.jpg"},
+          {"ID": 5, "Name": "Alex Turner", "Grade": "A+", "Percentage": 91,"img":"https://randomuser.me/api/portraits/men/30.jpg"},
+          {"ID": 6, "Name": "Sophia Miller", "Grade": "A", "Percentage": 86,"img":"https://randomuser.me/api/portraits/women/82.jpg"},
+          {"ID": 7, "Name": "David White", "Grade": "A", "Percentage": 88,"img":"https://randomuser.me/api/portraits/men/42.jpg"},
+          {"ID": 8, "Name": "Emma Davis", "Grade": "A+", "Percentage": 93,"img":"https://randomuser.me/api/portraits/women/69.jpg"},
+          {"ID": 9, "Name": "Robert Taylor", "Grade": "A", "Percentage": 87,"img":"https://randomuser.me/api/portraits/men/17.jpg"},
+          {"ID": 10, "Name": "Olivia Johnson", "Grade": "A+", "Percentage": 95,"img":"https://randomuser.me/api/portraits/women/72.jpg"}
         ]
       },
       { "id":2,
         "class_name": "Class 2",
         "students": [
-          {"ID": 1, "Name": "Daniel Brown", "Grade": "A", "Percentage": 88},
-          {"ID": 2, "Name": "Sophie Wilson", "Grade": "A+", "Percentage": 94},
-          {"ID": 3, "Name": "James Davis", "Grade": "A", "Percentage": 87},
-          {"ID": 4, "Name": "Isabella Harris", "Grade": "A+", "Percentage": 96},
-          {"ID": 5, "Name": "Andrew Miller", "Grade": "A", "Percentage": 89},
-          {"ID": 6, "Name": "Ella Brown", "Grade": "A", "Percentage": 86},
-          {"ID": 7, "Name": "Michael Turner", "Grade": "A+", "Percentage": 92},
-          {"ID": 8, "Name": "Grace Martin", "Grade": "A", "Percentage": 85},
-          {"ID": 9, "Name": "William White", "Grade": "A+", "Percentage": 91},
-          {"ID": 10, "Name": "Ava Jackson", "Grade": "A", "Percentage": 88}
+          {"ID": 1, "Name": "Daniel Brown", "Grade": "A", "Percentage": 88 ,"img":"https://randomuser.me/api/portraits/men/23.jpg"},
+          {"ID": 2, "Name": "Sophie Wilson", "Grade": "A+", "Percentage": 94 ,"img":"https://randomuser.me/api/portraits/men/24.jpg"},
+          {"ID": 3, "Name": "James Davis", "Grade": "A", "Percentage": 87 ,"img":"https://randomuser.me/api/portraits/men/25.jpg"},
+          {"ID": 4, "Name": "Isabella Harris", "Grade": "A+", "Percentage": 96 ,"img":"https://randomuser.me/api/portraits/women/55.jpg"},
+          {"ID": 5, "Name": "Andrew Miller", "Grade": "A", "Percentage": 89 ,"img":"https://randomuser.me/api/portraits/men/27.jpg"},
+          {"ID": 6, "Name": "Ella Brown", "Grade": "A", "Percentage": 86 ,"img":"https://randomuser.me/api/portraits/women/93.jpg"},
+          {"ID": 7, "Name": "Michael Turner", "Grade": "A+", "Percentage": 92 ,"img":"https://randomuser.me/api/portraits/women/47.jpg"},
+          {"ID": 8, "Name": "Grace Martin", "Grade": "A", "Percentage": 85,"img":"https://randomuser.me/api/portraits/women/28.jpg"},
+          {"ID": 9, "Name": "William White", "Grade": "A+", "Percentage": 91,"img":"https://randomuser.me/api/portraits/women/29.jpg"},
+          {"ID": 10, "Name": "Ava Jackson", "Grade": "A", "Percentage": 88,"img":"https://randomuser.me/api/portraits/women/96.jpg"}
         ]
       }
     ]
