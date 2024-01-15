@@ -2,7 +2,7 @@
     "school": "ABC School",
     "classes": [
       { "id":1,
-        "class_name": "Class 1",
+        "class_name": "Class 11",
         "students": [
           {"ID": 1, "Name": "John Doe", "Grade": "A+", "Percentage": 92,"img":"https://randomuser.me/api/portraits/men/0.jpg"},
           {"ID": 2, "Name": "Jane Smith", "Grade": "A", "Percentage": 85,"img":"https://randomuser.me/api/portraits/men/73.jpg"},
@@ -17,7 +17,7 @@
         ]
       },
       { "id":2,
-        "class_name": "Class 2",
+        "class_name": "Class 12",
         "students": [
           {"ID": 1, "Name": "Daniel Brown", "Grade": "A", "Percentage": 88 ,"img":"https://randomuser.me/api/portraits/men/23.jpg"},
           {"ID": 2, "Name": "Sophie Wilson", "Grade": "A+", "Percentage": 94 ,"img":"https://randomuser.me/api/portraits/men/24.jpg"},
